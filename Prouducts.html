@@ -13,9 +13,17 @@
     <!-- bootstrap icon cdn link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <style>
+        * {
+            margin: 0 !important;
+            box-sizing: border-box !important;
+        }
+
         .custom-style {
             display: flex;
             justify-content: space-around;
+        }
+        .bg-custom{
+            color: gold;
         }
     </style>
 </head>
@@ -75,7 +83,134 @@
 
     <!-- end of navbar -->
     <!-- main content start -->
-    Products Page.
+    <div class="row">
+        <div class="col-md-3 pt-3 ps-3">
+            <h2>Deals</h2>
+            <!-- <ul class="list-unstyled fs-4"> -->
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Deals of the Day
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault1">
+                <label class="form-check-label" for="flexCheckDefault1">
+                    Flash Sale
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2">
+                    Most Popular
+                </label>
+            </div>
+            <!-- </ul> -->
+            <h2 class="mt-5">Products</h2>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault12">
+                <label class="form-check-label" for="flexCheckDefault12">
+                    Laptops & Computers
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault11">
+                <label class="form-check-label" for="flexCheckDefault11">
+                    SmartPhones
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault20">
+                <label class="form-check-label" for="flexCheckDefault20">
+                    Camera
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault3">
+                <label class="form-check-label" for="flexCheckDefault3">
+                    Health & Fitness
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="checkbox" value="" id="flexCheckDefault4">
+                <label class="form-check-label" for="flexCheckDefault4">
+                    Beauty
+                </label>
+            </div>
+
+            <h2 class="mt-5">Prices</h2>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault31">
+                <label class="form-check-label" for="flexRadioDefault31">
+                    below $50
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault32">
+                <label class="form-check-label" for="flexRadioDefault32">
+                    $50 to $100
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault33">
+                <label class="form-check-label" for="flexRadioDefault33">
+                    $100 to $500
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault34">
+                <label class="form-check-label" for="flexRadioDefault34">
+                    $500 to $1000
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault35">
+                <label class="form-check-label" for="flexRadioDefault35">
+                    Above $1000
+                </label>
+            </div>
+
+            <h2 class="mt-5">Discounts</h2>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault36">
+                <label class="form-check-label" for="flexRadioDefault36">
+                    upto 25%
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault37">
+                <label class="form-check-label" for="flexRadioDefault37">
+                    upto 50%
+                </label>
+            </div>
+            <div class="form-check fs-4">
+                <input class="form-check-input mt-2 me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault38">
+                <label class="form-check-label" for="flexRadioDefault38">
+                    50% & Above
+                </label>
+            </div>
+
+            <h2 class="mt-5">Ratings</h2>
+            <div class="first fs-4 ms-4 mt-2">
+                <i class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i><i
+                    class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i>
+            </div>
+            <div class="second fs-4 ms-4"><i class="bi bi-star bg-custom"></i><i class="bi bi-star-fill bg-custom"></i><i
+                    class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i></div>
+            <div class="third fs-4 ms-4"><i class="bi bi-star bg-custom"></i><i class="bi bi-star bg-custom"></i><i class="bi bi-star-fill bg-custom"></i><i
+                    class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i></div>
+            <div class="fourth fs-4 ms-4"><i class="bi bi-star bg-custom"></i><i class="bi bi-star bg-custom"></i><i class="bi bi-star bg-custom"></i>
+                <i class="bi bi-star-fill bg-custom"></i><i class="bi bi-star-fill bg-custom"></i>
+            </div>
+            <div class="fifth fs-4 ms-4"><i class="bi bi-star bg-custom"></i><i class="bi bi-star bg-custom"></i><i class="bi bi-star bg-custom"></i><i
+                    class="bi bi-star bg-custom"></i>
+                <i class="bi bi-star-fill bg-custom"></i>
+            </div>
+        </div>
+        <div class="col-md-9">
+            cart
+        </div>
+    </div>
     <!-- end of main content -->
 
     <!-- start of Footer -->
